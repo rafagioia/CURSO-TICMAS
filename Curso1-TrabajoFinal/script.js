@@ -1,6 +1,6 @@
 const cv3 = document
   .getElementById("btn-1")
-  .addEventListener("mouseover", () => {
+  .addEventListener("click", () => {
     document.getElementById("area").innerHTML =
       "<h3>Información Personal:</h3><ul>" +
       "<li>Nombre: " +
@@ -12,7 +12,7 @@ const cv3 = document
       "</li></ul>";
   });
 
-document.getElementById("btn-2").addEventListener("mouseover", () => {
+document.getElementById("btn-2").addEventListener("click", () => {
   document.getElementById("area").innerHTML =
     "<h3>Experiencia Laboral:</h3><ol><li><ul>" +
     "<li>Empresa: " +  cv.exp_lab.empresa1.empresa +
@@ -29,7 +29,7 @@ document.getElementById("btn-2").addEventListener("mouseover", () => {
     "</li></ul></li></ol>";
 });
 
-document.getElementById("btn-3").addEventListener("mouseover", () => {
+document.getElementById("btn-3").addEventListener("click", () => {
   document.getElementById("area").innerHTML =
     "<h3>Habilidades:</h3><ul>"+
     "<li>"+cv.habilid[0]+"</li>"+
@@ -39,7 +39,7 @@ document.getElementById("btn-3").addEventListener("mouseover", () => {
     "<li>"+cv.habilid[4]+"</li></ul>";
 });
 
-document.getElementById("btn-4").addEventListener("mouseover", () => {
+document.getElementById("btn-4").addEventListener("click", () => {
   document.getElementById("area").innerHTML =
   "<h3>Experiencia Laboral:</h3><ol><li><ul>" +
   "<li>" +  cv.cursos.empresa1.empresa +
@@ -62,18 +62,18 @@ document.getElementById("btn-4").addEventListener("mouseover", () => {
 
 
 
-  document.getElementById("btn-1").addEventListener("mouseout", () => {
-    document.getElementById("area").innerHTML = ""    
-    });
-    document.getElementById("btn-2").addEventListener("mouseout", () => {
-      document.getElementById("area").innerHTML = ""    
-      });
-      document.getElementById("btn-3").addEventListener("mouseout", () => {
-        document.getElementById("area").innerHTML = ""    
-        });
-        document.getElementById("btn-4").addEventListener("mouseout", () => {
-          document.getElementById("area").innerHTML = ""    
-          });
+  // document.getElementById("btn-1").addEventListener("mouseout", () => {
+  //   document.getElementById("area").innerHTML = ""    
+  //   });
+  //   document.getElementById("btn-2").addEventListener("mouseout", () => {
+  //     document.getElementById("area").innerHTML = ""    
+  //     });
+  //     document.getElementById("btn-3").addEventListener("mouseout", () => {
+  //       document.getElementById("area").innerHTML = ""    
+  //       });
+  //       document.getElementById("btn-4").addEventListener("mouseout", () => {
+  //         document.getElementById("area").innerHTML = ""    
+  //         });
 
 const cv = {
 
