@@ -15,17 +15,17 @@ const cv3 = document
 document.getElementById("btn-2").addEventListener("mouseover", () => {
   document.getElementById("area").innerHTML =
     "<h3>Experiencia Laboral:</h3><ol><li><ul>" +
-    "<li>empresa: " +  cv.exp_lab.empresa1.empresa +
-    "</li><li>duracion: " + cv.exp_lab.empresa1.duracion +
-    "</li><li>puesto: " +   cv.exp_lab.empresa1.puesto +
+    "<li>Empresa: " +  cv.exp_lab.empresa1.empresa +
+    "</li><li>Duracion: " + cv.exp_lab.empresa1.duracion +
+    "</li><li>Puesto: " +   cv.exp_lab.empresa1.puesto +
     "</li></ul></li><li><ul>" +
-    "<li>empresa: " +  cv.exp_lab.empresa2.empresa +
-    "</li><li>duracion: " + cv.exp_lab.empresa2.duracion +
-    "</li><li>puesto: " +   cv.exp_lab.empresa2.puesto +
+    "<li>Empresa: " +  cv.exp_lab.empresa2.empresa +
+    "</li><li>Duracion: " + cv.exp_lab.empresa2.duracion +
+    "</li><li>Puesto: " +   cv.exp_lab.empresa2.puesto +
     "</li></ul></li><li><ul>" +
-    "<li>empresa: " +  cv.exp_lab.empresa3.empresa +
-    "</li><li>duracion: " + cv.exp_lab.empresa3.duracion +
-    "</li><li>puesto: " +   cv.exp_lab.empresa3.puesto +
+    "<li>Empresa: " +  cv.exp_lab.empresa3.empresa +
+    "</li><li>Duracion: " + cv.exp_lab.empresa3.duracion +
+    "</li><li>Puesto: " +   cv.exp_lab.empresa3.puesto +
     "</li></ul></li></ol>";
 });
 
@@ -78,7 +78,7 @@ document.getElementById("btn-4").addEventListener("mouseover", () => {
 const cv = {
 
 info_per: {
-  nombre: "Rafa",
+  nombre: "Rafa Gioia",
   mail: "raulgioia01@gmail.com",
   fnac: "12/05/1987",
 },
